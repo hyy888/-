@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .w {
+            width: 1200px;
+            margin: 30px auto;
+        }
+
+        .hd {
+            height: 42px;
+            background-color: #f54343;
+        }
+
+        .hd_mag {
+            float: left;
+            margin: 5px 100px;
+        }
+
+        .hd_ss {
+            margin: 8px 0;
+            float: right;
+            margin-right: 100px;
+        }
+
+        .hd_mag_log {
+            height: 30px;
+        }
+
+        .nav_cs,
+        li {
+            margin: 5px 0;
+            padding-left: 15px;
+            float: left;
+        }
+
+        .nav_cs,
+        li,
+        a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .content {
+            height: 50px;
+
+        }
+
+
+        .content_tj {
+            width: 100px;
+            height: 50px;
+            background-color: #fff;
+            float: right;
+            margin-right: 50px;
+        }
+
+        .content_tj button {
+            height: 50px;
+            width: 100px;
+            font-size: 18px;
+            border-width: 3px;
+            border-color: #666;
+            background-color: #ffa040;
+        }
+
+        .content_tj button:hover {
+            background-color: red;
+        }
+
+        .content_nr {
+            margin-top: 30px;
+        }
+
+        .content_nr_bt {
+            height: 60px;
+            margin: 30px auto;
+        }
+
+        .content_nr_bt_nr {
+            float: left;
+            margin-left: 50px;
+            font-size: 18px;
+        }
+
+        .content_nr_bt_xg {
+            float: right;
+            margin-right: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部导航栏 -->
+    <div class="hd w">
+        <div class="hd_mag">
+            <img src="src/assets/xinwen_log.png" class="hd_mag_log" alt="新闻">
+        </div>
+        <div class="nav">
+            <ul class="nav_cs">
+                <li><a href="#">热点</a></li>
+                <li><a href="#">图片</a></li>
+                <li><a href="#">资讯</a></li>
+                <li><a href="#">后台管理</a></li>
+            </ul>
+        </div>
+        <div class="hd_ss">
+            <input type="text" class="hd_ss_text" value="新闻搜索">
+            <button class="hd_ss_button">搜索</button>
+        </div>
+    </div>
+    <!-- 添加新闻按钮 -->
+    <div class="content w">
+        <div class="content_tj">
+            <button>添加新闻</button>
+        </div>
+    </div>
+    <!-- 新闻信息，修改删除 -->
+    <div class="content_nr w">
+        <div class="content_nr_bt">
+            <div class="content_nr_bt_nr">
+                <p>
+                    中美商务部长通话 双方同意妥善处理分歧
+                </p>
+            </div>
+
+            <div class="content_nr_bt_xg">
+                <ul>
+                    <li><button>查看</button></li>
+                    <li><button>编辑</button></li>
+                    <li><button>删除</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content_nr_bt">
+            <div class="content_nr_bt_nr">
+                <p>
+                    美国会骚乱案相关近500人被捕 针对特朗普的调查正进行？
+                </p>
+            </div>
+
+            <div class="content_nr_bt_xg">
+                <ul>
+                    <li><button>查看</button></li>
+                    <li><button>编辑</button></li>
+                    <li><button>删除</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content_nr_bt">
+            <div class="content_nr_bt_nr">
+                <p>
+                    广东卫健委：专家研判广州疫情形势趋于缓和
+                </p>
+            </div>
+
+            <div class="content_nr_bt_xg">
+                <ul>
+                    <li><button>查看</button></li>
+                    <li><button>编辑</button></li>
+                    <li><button>删除</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content_nr_bt">
+            <div class="content_nr_bt_nr">
+                <p>
+                    国家矿山安监局：去年100多处煤矿被降低或撤销等级
+                </p>
+            </div>
+
+            <div class="content_nr_bt_xg">
+                <ul>
+                    <li><button>查看</button></li>
+                    <li><button>编辑</button></li>
+                    <li><button>删除</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
